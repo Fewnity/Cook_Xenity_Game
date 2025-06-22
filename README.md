@@ -4,7 +4,7 @@ It's an Overcooked like. Use of physics, audio and particles.
 
 Link to the game engine: [https://github.com/Fewnity/Xenity-Engine](https://github.com/Fewnity/Xenity-Engine)
 
-![cooking_game](https://github.com/user-attachments/assets/62ebd72d-a7f1-46a4-aee2-6172c6cb86bf)
+![cooking_game](https://github.com/user-attachments/assets/2753644d-3db6-4283-b964-a78843cde624)
 
 ## Goal of this minigame
 
