@@ -1,0 +1,19 @@
+{
+"id": 100490,
+"MetaVersion": 1,
+"Standalone": {
+"Values": {
+"loadedInMemory": true
+}
+},
+"PSP": {
+"Values": {
+"loadedInMemory": true
+}
+},
+"PSVITA": {
+"Values": {
+"loadedInMemory": true
+}
+}
+}

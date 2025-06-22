@@ -1,0 +1,8330 @@
+{
+  "UsedFiles": {
+    "Values": [
+      12,
+      100178,
+      100179,
+      100180,
+      100182,
+      100185,
+      100189,
+      100190,
+      100192,
+      100196,
+      100197,
+      100201,
+      100202,
+      100203,
+      100204,
+      100205,
+      100206,
+      100211,
+      100212,
+      100228,
+      100229,
+      100237,
+      100238,
+      100240,
+      100271,
+      100276,
+      100291,
+      100293,
+      100294,
+      100304,
+      100309,
+      100310,
+      100316,
+      100318,
+      100320,
+      100322,
+      100333,
+      100359,
+      100373,
+      100374,
+      100375,
+      100379,
+      100380,
+      100387,
+      100390,
+      100398,
+      100436,
+      100453,
+      100488,
+      100489,
+      100490,
+      100493,
+      100618
+    ]
+  }
+}
+{
+  "Version": 1,
+  "GameObjects": {
+    "335": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 7.296039581298828,
+              "y": 8.065171241760254,
+              "z": -3.9041900634765625
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.3826834559440613,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.9238795042037964
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 2.0,
+              "y": 2.0,
+              "z": 2.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Camera",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "336": {
+          "Type": "Camera",
+          "Values": {
+            "projectionType": 0,
+            "fov": 60.0,
+            "projectionSize": 5.0,
+            "nearClippingPlane": 0.10000000149011612,
+            "farClippingPlane": 250.0,
+            "useMultisampling": true
+          },
+          "Enabled": true
+        },
+        "461": {
+          "Enabled": false,
+          "Type": "CameraController",
+          "Values": {
+            "buildManager": 389,
+            "currentPosition": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "currentScrollValue": 0.0,
+            "lerpScrollSpeed": 20.0,
+            "maxPosition": {
+              "Values": {
+                "x": 11.0,
+                "y": 0.0
+              }
+            },
+            "maxScrollValue": 0.0,
+            "minPosition": {
+              "Values": {
+                "x": -3.0,
+                "y": -9.0
+              }
+            },
+            "minScrollValue": -5.0,
+            "moveSpeed": 7.0
+          }
+        }
+      }
+    },
+    "378": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 4.667863845825195,
+              "y": 0.0,
+              "z": 1.904660701751709
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Player",
+        "active": true
+      },
+      "Children": [
+        717,
+        857,
+        859
+      ],
+      "Components": {
+        "379": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100178,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": false
+        },
+        "606": {
+          "Type": "Player",
+          "Values": {
+            "moveSpeed": 5.0,
+            "rigidbody": 607,
+            "handsLocation": 717,
+            "heldItem": 0,
+            "playerMeshHolding": 857,
+            "playerMeshIdle": 859
+          },
+          "Enabled": true
+        },
+        "607": {
+          "Type": "RigidBody",
+          "Values": {
+            "isStatic": false,
+            "gravityMultiplier": 1.0,
+            "drag": 0.0,
+            "angularDrag": 0.10000000149011612,
+            "bounce": 0.0,
+            "mass": 1.0,
+            "friction": 0.10000000149011612,
+            "lockedMovementAxis": {
+              "Values": {
+                "x": false,
+                "y": true,
+                "z": false
+              }
+            },
+            "lockedRotationAxis": {
+              "Values": {
+                "x": true,
+                "y": true,
+                "z": true
+              }
+            }
+          },
+          "Enabled": true
+        },
+        "624": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 0.7500079870223999,
+                "y": 1.2080351114273071,
+                "z": 0.7962340116500854
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": -1.8998980522155762e-05,
+                "y": 0.6040264964103699,
+                "z": -0.023117005825042725
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "458": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 4.0,
+              "y": -0.5,
+              "z": 4.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GroundCollision",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "460": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 20.0,
+                "y": 1.0,
+                "z": 12.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "462": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "RestaurantFinal",
+        "active": true
+      },
+      "Children": [
+        463,
+        494,
+        618,
+        972
+      ]
+    },
+    "463": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Ground",
+        "active": true
+      },
+      "Children": [
+        464,
+        466,
+        468,
+        470,
+        472,
+        474,
+        476,
+        478,
+        480,
+        482,
+        484,
+        486,
+        488,
+        490,
+        492
+      ]
+    },
+    "464": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": -0.5,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Ground",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "465": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100197,
+            "materials": [
+              100618
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "466": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": -0.5,
+              "z": 4.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Ground (1)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "467": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100197,
+            "materials": [
+              100618
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "468": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 4.0,
+              "y": -0.5,
+              "z": 4.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Ground (2)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "469": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100197,
+            "materials": [
+              100618
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "470": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 4.0,
+              "y": -0.5,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Ground (3)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "471": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100197,
+            "materials": [
+              100618
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "472": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -4.0,
+              "y": -0.5,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Ground (4)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "473": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100197,
+            "materials": [
+              100618
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "474": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -4.0,
+              "y": -0.5,
+              "z": 4.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Ground (5)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "475": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100197,
+            "materials": [
+              100618
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "476": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -4.0,
+              "y": -0.5,
+              "z": 8.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Ground (6)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "477": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100197,
+            "materials": [
+              100618
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "478": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": -0.5,
+              "z": 8.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Ground (7)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "479": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100197,
+            "materials": [
+              100618
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "480": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 4.0,
+              "y": -0.5,
+              "z": 8.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Ground (8)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "481": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100197,
+            "materials": [
+              100618
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "482": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.0,
+              "y": -0.5,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Ground (9)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "483": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100197,
+            "materials": [
+              100618
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "484": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 12.0,
+              "y": -0.5,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Ground (10)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "485": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100197,
+            "materials": [
+              100618
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "486": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.0,
+              "y": -0.5,
+              "z": 4.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Ground (11)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "487": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100197,
+            "materials": [
+              100618
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "488": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.0,
+              "y": -0.5,
+              "z": 8.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Ground (12)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "489": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100197,
+            "materials": [
+              100618
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "490": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 12.0,
+              "y": -0.5,
+              "z": 8.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Ground (13)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "491": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100197,
+            "materials": [
+              100618
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "492": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 12.0,
+              "y": -0.5,
+              "z": 4.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Ground (14)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "493": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100197,
+            "materials": [
+              100618
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "494": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Walls",
+        "active": true
+      },
+      "Children": [
+        495,
+        497,
+        499,
+        501,
+        503,
+        505,
+        507,
+        509,
+        511,
+        513,
+        515,
+        519,
+        521,
+        523,
+        525,
+        682
+      ]
+    },
+    "495": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.0,
+              "z": 10.25
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (150)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "496": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100316,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "497": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -4.0,
+              "y": 0.0,
+              "z": 10.25
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (151)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "498": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100322,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "499": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 4.0,
+              "y": 0.0,
+              "z": 10.25
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (152)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "500": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100316,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "501": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 14.25,
+              "y": 0.0,
+              "z": 8.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (153)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "502": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100316,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "503": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 12.0,
+              "y": 0.0,
+              "z": 10.25
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (154)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "504": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100322,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "505": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.0,
+              "y": 0.0,
+              "z": 10.25
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (155)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "506": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100316,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "507": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 14.25,
+              "y": 0.0,
+              "z": -9.928795563496351e-09
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (156)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "508": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100316,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "509": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -6.25,
+              "y": 0.0,
+              "z": 8.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (157)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "510": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100316,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "511": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -6.25,
+              "y": 0.0,
+              "z": 1.3720999447741633e-08
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (158)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "512": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100316,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "513": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 1.75,
+              "y": 0.0,
+              "z": 8.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (159)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "514": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100316,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "515": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 1.75,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (160)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "516": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100316,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "519": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -6.25,
+              "y": 0.0,
+              "z": 4.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (162)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "520": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100318,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "521": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 14.25,
+              "y": 0.0,
+              "z": 4.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (163)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "522": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100322,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "523": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 14.25,
+              "y": 0.0,
+              "z": 10.25
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (165)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "524": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100291,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "525": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -6.25,
+              "y": 0.0,
+              "z": 10.25
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (166)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "526": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100291,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "527": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 7.0,
+              "y": 0.0,
+              "z": 9.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "w": -4.371138828673793e-08
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Stove1",
+        "active": true
+      },
+      "Children": [
+        692,
+        765,
+        567,
+        873,
+        912
+      ],
+      "Components": {
+        "528": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100309,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "671": {
+          "Type": "Stove",
+          "Values": {
+            "triggers": [
+              693
+            ],
+            "gameManager": 684,
+            "ingredientPosition": 765,
+            "loadingBar": 875,
+            "cookTime": 10.0,
+            "stoveAudioSource": 906,
+            "particleSystem": 913
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "529": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -3.0,
+              "y": 0.0,
+              "z": 7.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (168)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "530": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100310,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "531": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -1.0,
+              "y": 0.0,
+              "z": 7.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (169)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "532": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100179,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "533": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -5.0,
+              "y": 0.0,
+              "z": 7.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (170)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "534": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100179,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "535": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -3.0,
+              "y": 0.0,
+              "z": 9.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (171)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "536": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100179,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "537": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -3.0,
+              "y": 0.0,
+              "z": 5.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (172)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "538": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100179,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "551": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (179)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "552": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100237,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "553": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (180)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "554": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100238,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "561": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 13.0,
+              "y": 0.0,
+              "z": 9.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "w": -4.371138828673793e-08
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Sink",
+        "active": true
+      },
+      "Children": [
+        695,
+        811,
+        861,
+        918
+      ],
+      "Components": {
+        "562": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100276,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "670": {
+          "Type": "Sink",
+          "Values": {
+            "triggers": [
+              696
+            ],
+            "gameManager": 684,
+            "dishPosition": 811,
+            "loadingBar": 867,
+            "washTime": 3.0,
+            "audioSource": 907,
+            "particleSystem": 919
+          },
+          "Enabled": true
+        },
+        "907": {
+          "Type": "AudioSource",
+          "Values": {
+            "volume": 0.20000000298023224,
+            "pan": 0.5,
+            "playOnAwake": false,
+            "loop": false,
+            "audioClip": 100390
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "563": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 11.0,
+              "y": 0.0,
+              "z": 9.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Dish_Rack",
+        "active": true
+      },
+      "Children": [
+        565,
+        698
+      ],
+      "Components": {
+        "564": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100271,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "669": {
+          "Type": "DishRack",
+          "Values": {
+            "triggers": [
+              699
+            ],
+            "gameManager": 684,
+            "dishPlate": 754,
+            "dishPlates": [
+              770,
+              780,
+              783,
+              786
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "565": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 1.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Mesh",
+        "active": true
+      },
+      "Children": [
+        770,
+        780,
+        783,
+        786
+      ],
+      "Components": {
+        "566": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100192,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "567": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.0,
+              "z": -1.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (187)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "568": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100196,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "569": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 3.0,
+              "y": 0.0,
+              "z": -1.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Crate_Lettuce",
+        "active": false
+      },
+      "Children": [],
+      "Components": {
+        "570": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100185,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "611": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 2.0,
+                "y": 0.998054027557373,
+                "z": 2.000005006790161
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.49902498722076416,
+                "z": -4.76837158203125e-07
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        },
+        "685": {
+          "Type": "Crate",
+          "Values": {
+            "gameManager": 684,
+            "ingredientToSpawn": 0,
+            "ingredientType": 0,
+            "audioSource": 0
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "571": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 10.399999618530273,
+              "y": 0.0,
+              "z": -1.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Crate_Cheese",
+        "active": true
+      },
+      "Children": [
+        708
+      ],
+      "Components": {
+        "572": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100182,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "613": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 2.0,
+                "y": 0.9459660053253174,
+                "z": 2.000005006790161
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.47298097610473633,
+                "z": -4.76837158203125e-07
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        },
+        "687": {
+          "Type": "Crate",
+          "Values": {
+            "triggers": [
+              709
+            ],
+            "gameManager": 684,
+            "ingredientToSpawn": 731,
+            "ingredientType": 1,
+            "audioSource": 902
+          },
+          "Enabled": true
+        },
+        "902": {
+          "Type": "AudioSource",
+          "Values": {
+            "volume": 1.0,
+            "pan": 0.5,
+            "playOnAwake": false,
+            "loop": false,
+            "audioClip": 100387
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "575": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 13.0,
+              "y": 0.0,
+              "z": -1.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Crate_Tomatoes",
+        "active": true
+      },
+      "Children": [
+        711
+      ],
+      "Components": {
+        "576": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100190,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "614": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 2.0,
+                "y": 0.923317015171051,
+                "z": 2.000005006790161
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.46165648102760315,
+                "z": -4.76837158203125e-07
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        },
+        "688": {
+          "Type": "Crate",
+          "Values": {
+            "triggers": [
+              712
+            ],
+            "gameManager": 684,
+            "ingredientToSpawn": 732,
+            "ingredientType": 3,
+            "audioSource": 903
+          },
+          "Enabled": true
+        },
+        "903": {
+          "Type": "AudioSource",
+          "Values": {
+            "volume": 1.0,
+            "pan": 0.5,
+            "playOnAwake": false,
+            "loop": false,
+            "audioClip": 100387
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "577": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 5.599999904632568,
+              "y": 0.0,
+              "z": -1.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Crate_Steak",
+        "active": true
+      },
+      "Children": [
+        714
+      ],
+      "Components": {
+        "578": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100189,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "612": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 2.0,
+                "y": 0.8769130110740662,
+                "z": 2.000005006790161
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.4384544789791107,
+                "z": -4.76837158203125e-07
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        },
+        "686": {
+          "Type": "Crate",
+          "Values": {
+            "triggers": [
+              715
+            ],
+            "gameManager": 684,
+            "ingredientToSpawn": 735,
+            "ingredientType": 6,
+            "audioSource": 901
+          },
+          "Enabled": true
+        },
+        "901": {
+          "Type": "AudioSource",
+          "Values": {
+            "volume": 1.0,
+            "pan": 0.5,
+            "playOnAwake": false,
+            "loop": false,
+            "audioClip": 100387
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "595": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 3.0,
+              "y": 0.0,
+              "z": 9.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "w": -4.371138828673793e-08
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Stove0",
+        "active": true
+      },
+      "Children": [
+        689,
+        764,
+        597,
+        868,
+        908
+      ],
+      "Components": {
+        "596": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100309,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "672": {
+          "Type": "Stove",
+          "Values": {
+            "triggers": [
+              690
+            ],
+            "gameManager": 684,
+            "ingredientPosition": 764,
+            "loadingBar": 870,
+            "cookTime": 10.0,
+            "stoveAudioSource": 906,
+            "particleSystem": 909
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "597": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -2.384185791015625e-07,
+              "y": 0.0,
+              "z": -1.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (202)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "598": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100196,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "599": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 7.0,
+              "y": 0.0,
+              "z": 3.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Counter0",
+        "active": true
+      },
+      "Children": [
+        636,
+        639,
+        642,
+        748,
+        878
+      ],
+      "Components": {
+        "600": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100271,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "635": {
+          "Type": "Counter",
+          "Values": {
+            "triggers": [
+              637,
+              640,
+              643
+            ],
+            "gameManager": 684,
+            "middlePosition": 748,
+            "loadingBar": 880,
+            "cutTime": 3.0
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "605": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "NewGameManager",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "684": {
+          "Type": "GameManager",
+          "Values": {
+            "players": [
+              606
+            ],
+            "itemBuilder": 718
+          },
+          "Enabled": true
+        },
+        "718": {
+          "Type": "ItemBuilder",
+          "Values": {
+            "tomatoSlices": 733,
+            "cheeseSlice": 737,
+            "cookedSteak": 736,
+            "overcookedSteak": 768,
+            "dish": 754
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "618": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Collisions",
+        "active": true
+      },
+      "Children": [
+        620,
+        622,
+        625,
+        627,
+        629
+      ]
+    },
+    "620": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 1.75,
+              "y": 2.0,
+              "z": 4.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "621": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 0.5,
+                "y": 4.0,
+                "z": 12.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "622": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 14.25,
+              "y": 2.0,
+              "z": 4.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (206)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "623": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 0.5,
+                "y": 4.0,
+                "z": 12.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "625": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.25,
+              "y": 2.0,
+              "z": 8.253849983215332
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (207)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "626": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 12.0,
+                "y": 4.0,
+                "z": 0.5
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "627": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.25,
+              "y": 2.0,
+              "z": -2.25
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (208)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "628": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 12.0,
+                "y": 4.0,
+                "z": 0.5
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "629": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 9.0,
+              "y": 0.5,
+              "z": 3.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (209)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "630": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 6.0,
+                "y": 1.0,
+                "z": 2.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "636": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.3512759804725647,
+              "z": -0.699999988079071
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger0",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "637": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "639": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.3512759804725647,
+              "z": 0.699999988079071
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger1",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "640": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "642": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.699999988079071,
+              "y": 0.3512759804725647,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger2",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "643": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "645": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 9.0,
+              "y": 0.0,
+              "z": 3.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Counter1",
+        "active": true
+      },
+      "Children": [
+        648,
+        651,
+        749,
+        883
+      ],
+      "Components": {
+        "646": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100271,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "647": {
+          "Type": "Counter",
+          "Values": {
+            "triggers": [
+              649,
+              652
+            ],
+            "gameManager": 684,
+            "middlePosition": 749,
+            "loadingBar": 885,
+            "cutTime": 3.0
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "648": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.3512759804725647,
+              "z": -0.699999988079071
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger0",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "649": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "651": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.3512759804725647,
+              "z": 0.699999988079071
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger1",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "652": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "657": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 11.0,
+              "y": 0.0,
+              "z": 3.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Counter2",
+        "active": true
+      },
+      "Children": [
+        660,
+        663,
+        666,
+        750,
+        888
+      ],
+      "Components": {
+        "658": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100271,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "659": {
+          "Type": "Counter",
+          "Values": {
+            "triggers": [
+              661,
+              664,
+              667
+            ],
+            "gameManager": 684,
+            "middlePosition": 750,
+            "loadingBar": 890,
+            "cutTime": 3.0
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "660": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.3512759804725647,
+              "z": -0.699999988079071
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger0",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "661": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "663": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.3512759804725647,
+              "z": 0.699999988079071
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger1",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "664": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "666": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.699999988079071,
+              "y": 0.3512759804725647,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger2",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "667": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "673": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 5.0,
+              "y": 0.0,
+              "z": 9.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Counter3",
+        "active": true
+      },
+      "Children": [
+        676,
+        751,
+        893
+      ],
+      "Components": {
+        "674": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100271,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "675": {
+          "Type": "Counter",
+          "Values": {
+            "triggers": [
+              677
+            ],
+            "gameManager": 684,
+            "middlePosition": 751,
+            "loadingBar": 895,
+            "cutTime": 3.0
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "676": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.3512759804725647,
+              "z": -0.699999988079071
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger0",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "677": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "682": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 1.75,
+              "y": 0.0,
+              "z": 4.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.2999999523162842,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Meal counter",
+        "active": true
+      },
+      "Children": [
+        815,
+        818,
+        855,
+        856,
+        921,
+        922
+      ],
+      "Components": {
+        "683": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100320,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "814": {
+          "Type": "ServiceCounter",
+          "Values": {
+            "triggers": [
+              816
+            ],
+            "gameManager": 684,
+            "dishPositions": [
+              818,
+              855,
+              856
+            ],
+            "bellAudioSource": 923,
+            "popAudioSource": 924
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "689": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.0,
+              "z": 0.699999988079071
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger0",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "690": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "692": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.6999988555908203
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger0",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "693": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "695": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.6999988555908203
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger0",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "696": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "698": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": -0.6999988555908203
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger0",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "699": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "701": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 3.0,
+              "y": 0.0,
+              "z": -1.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Crate_Buns",
+        "active": true
+      },
+      "Children": [
+        705
+      ],
+      "Components": {
+        "702": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100180,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "703": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 2.0,
+                "y": 0.8023820519447327,
+                "z": 2.000005006790161
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.40118899941444397,
+                "z": -4.76837158203125e-07
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        },
+        "704": {
+          "Type": "Crate",
+          "Values": {
+            "triggers": [
+              706
+            ],
+            "gameManager": 684,
+            "ingredientToSpawn": 734,
+            "ingredientType": 5,
+            "audioSource": 900
+          },
+          "Enabled": true
+        },
+        "900": {
+          "Type": "AudioSource",
+          "Values": {
+            "volume": 1.0,
+            "pan": 0.5,
+            "playOnAwake": false,
+            "loop": false,
+            "audioClip": 100387
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "705": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.0,
+              "z": 1.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger0",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "706": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "708": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger0",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "709": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "711": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger0",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "712": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "714": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger0",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "715": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "717": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 1.7766411304473877,
+              "z": 0.845839262008667
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "HandsLocation",
+        "active": true
+      },
+      "Children": []
+    },
+    "721": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Mesh",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "722": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100206,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "723": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Mesh",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "724": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100204,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "725": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Mesh",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "726": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100202,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "727": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.2940254211425781,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Mesh",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "728": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100211,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "729": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 0.8999999761581421,
+              "y": 0.8999999761581421,
+              "z": 0.8999999761581421
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Mesh",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "730": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100212,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "731": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 18.65030288696289,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Cheese_Piece",
+        "active": true
+      },
+      "Children": [
+        727
+      ],
+      "Components": {
+        "740": {
+          "Type": "Ingredient",
+          "Values": {
+            "height": 0.0,
+            "ingredientType": 1,
+            "cuttable": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "732": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 20.29010009765625,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Tomato",
+        "active": true
+      },
+      "Children": [
+        738
+      ],
+      "Components": {
+        "741": {
+          "Type": "Ingredient",
+          "Values": {
+            "height": 0.0,
+            "ingredientType": 3,
+            "cuttable": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "733": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 21.808774948120117,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Tomato_Slice",
+        "active": true
+      },
+      "Children": [
+        762
+      ],
+      "Components": {
+        "742": {
+          "Type": "Ingredient",
+          "Values": {
+            "height": 0.10499999672174454,
+            "ingredientType": 4,
+            "cuttable": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "734": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 23.078563690185547,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Buns",
+        "active": true
+      },
+      "Children": [
+        725
+      ],
+      "Components": {
+        "744": {
+          "Type": "Ingredient",
+          "Values": {
+            "height": 0.0,
+            "ingredientType": 5,
+            "cuttable": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "735": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 24.366687774658203,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Uncooked_Steak",
+        "active": true
+      },
+      "Children": [
+        721
+      ],
+      "Components": {
+        "745": {
+          "Type": "Ingredient",
+          "Values": {
+            "height": 0.20000000298023224,
+            "ingredientType": 6,
+            "cuttable": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "736": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 25.44285774230957,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Cooked_Steak",
+        "active": true
+      },
+      "Children": [
+        723
+      ],
+      "Components": {
+        "746": {
+          "Type": "Ingredient",
+          "Values": {
+            "height": 0.20000000298023224,
+            "ingredientType": 7,
+            "cuttable": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "737": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 26.732418060302734,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Cheese_Slice",
+        "active": true
+      },
+      "Children": [
+        729
+      ],
+      "Components": {
+        "747": {
+          "Type": "Ingredient",
+          "Values": {
+            "height": 0.014999999664723873,
+            "ingredientType": 2,
+            "cuttable": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "738": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Mesh",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "739": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100229,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "748": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 1.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Middle",
+        "active": true
+      },
+      "Children": []
+    },
+    "749": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Middle",
+        "active": true
+      },
+      "Children": []
+    },
+    "750": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Middle",
+        "active": true
+      },
+      "Children": []
+    },
+    "751": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Middle",
+        "active": true
+      },
+      "Children": []
+    },
+    "752": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Mesh",
+        "active": true
+      },
+      "Children": [
+        756,
+        758
+      ],
+      "Components": {
+        "753": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100293,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "754": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 27.83982276916504,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "DishPlate",
+        "active": true
+      },
+      "Children": [
+        752,
+        789,
+        914
+      ],
+      "Components": {
+        "916": {
+          "Type": "AudioSource",
+          "Values": {
+            "volume": 0.800000011920929,
+            "pan": 0.5,
+            "playOnAwake": false,
+            "loop": false,
+            "audioClip": 100489
+          },
+          "Enabled": true
+        },
+        "2964484704648273843": {
+          "Type": "Dish",
+          "Values": {
+            "buns": [
+              756,
+              758
+            ],
+            "cleanPlate": 752,
+            "dirtyPlate": 789,
+            "particleSystem": 915,
+            "audioSource": 916
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "756": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.026737771928310394,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Bun_Bottom",
+        "active": false
+      },
+      "Children": [],
+      "Components": {
+        "757": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100201,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "760": {
+          "Type": "Ingredient",
+          "Values": {
+            "height": 0.20000000298023224,
+            "ingredientType": 0,
+            "cuttable": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "758": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.18336337804794312,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Bun_Top",
+        "active": false
+      },
+      "Children": [],
+      "Components": {
+        "759": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100203,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "761": {
+          "Type": "Ingredient",
+          "Values": {
+            "height": 0.20000000298023224,
+            "ingredientType": 0,
+            "cuttable": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "762": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Mesh",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "763": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100228,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "764": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 1.2000000476837158,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Position",
+        "active": true
+      },
+      "Children": []
+    },
+    "765": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 1.2000000476837158,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Position",
+        "active": true
+      },
+      "Children": []
+    },
+    "766": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Mesh",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "767": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100205,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "768": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 29.189722061157227,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Overcooked_Steak",
+        "active": true
+      },
+      "Children": [
+        766
+      ],
+      "Components": {
+        "769": {
+          "Type": "Ingredient",
+          "Values": {
+            "height": 0.20000000298023224,
+            "ingredientType": 8,
+            "cuttable": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "770": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.6753720045089722,
+              "z": 0.3548288345336914
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "DishPlate0",
+        "active": true
+      },
+      "Children": [
+        772
+      ]
+    },
+    "772": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": -0.5735765099525452,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.8191519975662231
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Mesh",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "773": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100293,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "780": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.6752893924713135,
+              "z": 0.11820316314697266
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "DishPlate1",
+        "active": true
+      },
+      "Children": [
+        781
+      ]
+    },
+    "781": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": -0.5735765099525452,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.8191519975662231
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Mesh",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "782": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100293,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "783": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.6752421855926514,
+              "z": -0.039353370666503906
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "DishPlate2",
+        "active": true
+      },
+      "Children": [
+        784
+      ]
+    },
+    "784": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": -0.5735765099525452,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.8191519975662231
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Mesh",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "785": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100293,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "786": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.6751765012741089,
+              "z": -0.24981307983398438
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "DishPlate3",
+        "active": true
+      },
+      "Children": [
+        787
+      ]
+    },
+    "787": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": -0.5735765099525452,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.8191519975662231
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Mesh",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "788": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100293,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "789": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "MeshDirty",
+        "active": false
+      },
+      "Children": [],
+      "Components": {
+        "790": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100294,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "793": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.0,
+              "y": 0.0,
+              "z": -1.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Bin",
+        "active": true
+      },
+      "Children": [
+        795,
+        797,
+        803
+      ],
+      "Components": {
+        "794": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100359,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "806": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.2000000476837158,
+                "y": 1.2000000476837158,
+                "z": 0.9318000078201294
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.5959609746932983,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        },
+        "807": {
+          "Type": "Bin",
+          "Values": {
+            "triggers": [
+              804
+            ],
+            "gameManager": 684
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "795": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.09761929512023926,
+              "y": 0.6677272319793701,
+              "z": -0.2959003448486328
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.4226182997226715,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.9063077569007874
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 0.800000011920929,
+              "y": 0.800000011920929,
+              "z": 0.800000011920929
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (213)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "796": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100205,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "797": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -5.960464477539063e-08,
+              "y": 0.13208962976932526,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.2999999523162842,
+              "y": 1.0,
+              "z": 0.9700000286102295
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject (214)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "798": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100304,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "803": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.46229058504104614,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger0",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "804": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "808": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 9.0,
+              "y": 0.0,
+              "z": 9.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "w": -4.371138828673793e-08
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Fridge",
+        "active": true
+      },
+      "Children": [
+        551,
+        553
+      ],
+      "Components": {
+        "809": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100240,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "811": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.9024006724357605,
+              "z": -0.03332805633544922
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.3051368296146393,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.9523085355758667
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "DishPosition",
+        "active": true
+      },
+      "Children": [
+        812
+      ]
+    },
+    "812": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Mesh",
+        "active": false
+      },
+      "Children": [],
+      "Components": {
+        "813": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100293,
+            "materials": [
+              100333
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "815": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.0,
+              "z": 0.10000000149011612
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 0.7692307829856873,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger0",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "816": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 4.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "818": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 1.1973124742507935,
+              "z": -1.1920928955078125e-07
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Position0",
+        "active": true
+      },
+      "Children": []
+    },
+    "855": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.769230842590332,
+              "y": 1.197312355041504,
+              "z": -2.384185791015625e-07
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Position1",
+        "active": true
+      },
+      "Children": []
+    },
+    "856": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.769230842590332,
+              "y": 1.1973122358322144,
+              "z": -4.76837158203125e-07
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Position2",
+        "active": true
+      },
+      "Children": []
+    },
+    "857": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 0.699999988079071,
+              "y": 0.699999988079071,
+              "z": 0.699999988079071
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Mesh",
+        "active": false
+      },
+      "Children": [],
+      "Components": {
+        "858": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100373,
+            "materials": [
+              100374
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "859": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 0.699999988079071,
+              "y": 0.699999988079071,
+              "z": 0.699999988079071
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Mesh_Idle",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "860": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100375,
+            "materials": [
+              100374
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "861": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 2.5570716857910156,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": -0.05154086649417877,
+              "y": 0.9834580421447754,
+              "z": -0.17341020703315735,
+              "w": -0.00908808782696724
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 20.0,
+              "y": 4.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "LoadingBarBackground",
+        "active": false
+      },
+      "Children": [
+        865
+      ],
+      "Components": {
+        "864": {
+          "Type": "SpriteRenderer",
+          "Values": {
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0,
+                    "a": 0.19607843458652496
+                  }
+                }
+              }
+            },
+            "texture": 12,
+            "material": 100333
+          },
+          "Enabled": true
+        },
+        "867": {
+          "Type": "LoadingBar",
+          "Values": {
+            "fillBar": 865,
+            "fillAmount": 0.0
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "865": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 5.960464477539063e-08,
+              "y": -1.1920928955078125e-07,
+              "z": -0.009999999776482582
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "LoadingBarFill",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "866": {
+          "Type": "SpriteRenderer",
+          "Values": {
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 0.2743363380432129,
+                    "g": 1.0,
+                    "b": 0.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "texture": 12,
+            "material": 100333
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "868": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 2.5570716857910156,
+              "z": 9.5367431640625e-07
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.05154085159301758,
+              "y": 0.9834580421447754,
+              "z": -0.17341020703315735,
+              "w": 0.009088002145290375
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 20.0,
+              "y": 4.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "LoadingBarBackground",
+        "active": false
+      },
+      "Children": [
+        871
+      ],
+      "Components": {
+        "869": {
+          "Type": "SpriteRenderer",
+          "Values": {
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0,
+                    "a": 0.19607843458652496
+                  }
+                }
+              }
+            },
+            "texture": 12,
+            "material": 100333
+          },
+          "Enabled": true
+        },
+        "870": {
+          "Type": "LoadingBar",
+          "Values": {
+            "fillBar": 871,
+            "fillAmount": 0.0
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "871": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 5.960464477539063e-08,
+              "y": -1.1920928955078125e-07,
+              "z": -0.009999999776482582
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "LoadingBarFill",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "872": {
+          "Type": "SpriteRenderer",
+          "Values": {
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 0.2743363380432129,
+                    "g": 1.0,
+                    "b": 0.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "texture": 12,
+            "material": 100333
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "873": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 2.5570716857910156,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": -7.59040386100196e-09,
+              "y": 0.9848077297210693,
+              "z": -0.1736481934785843,
+              "w": -4.304731149318286e-08
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 20.0,
+              "y": 4.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "LoadingBarBackground",
+        "active": false
+      },
+      "Children": [
+        876
+      ],
+      "Components": {
+        "874": {
+          "Type": "SpriteRenderer",
+          "Values": {
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0,
+                    "a": 0.19607843458652496
+                  }
+                }
+              }
+            },
+            "texture": 12,
+            "material": 100333
+          },
+          "Enabled": true
+        },
+        "875": {
+          "Type": "LoadingBar",
+          "Values": {
+            "fillBar": 876,
+            "fillAmount": 0.0
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "876": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -5.960464477539063e-08,
+              "y": 2.384185791015625e-07,
+              "z": -0.009999999776482582
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "LoadingBarFill",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "877": {
+          "Type": "SpriteRenderer",
+          "Values": {
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 0.2743363380432129,
+                    "g": 1.0,
+                    "b": 0.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "texture": 12,
+            "material": 100333
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "878": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 2.5570716857910156,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 20.0,
+              "y": 4.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "LoadingBarBackground",
+        "active": false
+      },
+      "Children": [
+        881
+      ],
+      "Components": {
+        "879": {
+          "Type": "SpriteRenderer",
+          "Values": {
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0,
+                    "a": 0.19607843458652496
+                  }
+                }
+              }
+            },
+            "texture": 12,
+            "material": 100333
+          },
+          "Enabled": true
+        },
+        "880": {
+          "Type": "LoadingBar",
+          "Values": {
+            "fillBar": 881,
+            "fillAmount": 0.0
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "881": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 5.960464477539063e-08,
+              "y": -1.1920928955078125e-07,
+              "z": -0.009999999776482582
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "LoadingBarFill",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "882": {
+          "Type": "SpriteRenderer",
+          "Values": {
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 0.2743363380432129,
+                    "g": 1.0,
+                    "b": 0.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "texture": 12,
+            "material": 100333
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "883": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 2.5570716857910156,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 20.0,
+              "y": 4.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "LoadingBarBackground",
+        "active": false
+      },
+      "Children": [
+        886
+      ],
+      "Components": {
+        "884": {
+          "Type": "SpriteRenderer",
+          "Values": {
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0,
+                    "a": 0.19607843458652496
+                  }
+                }
+              }
+            },
+            "texture": 12,
+            "material": 100333
+          },
+          "Enabled": true
+        },
+        "885": {
+          "Type": "LoadingBar",
+          "Values": {
+            "fillBar": 886,
+            "fillAmount": 0.0
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "886": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 5.960464477539063e-08,
+              "y": -1.1920928955078125e-07,
+              "z": -0.009999999776482582
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "LoadingBarFill",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "887": {
+          "Type": "SpriteRenderer",
+          "Values": {
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 0.2743363380432129,
+                    "g": 1.0,
+                    "b": 0.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "texture": 12,
+            "material": 100333
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "888": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 2.5570716857910156,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 20.0,
+              "y": 4.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "LoadingBarBackground",
+        "active": false
+      },
+      "Children": [
+        891
+      ],
+      "Components": {
+        "889": {
+          "Type": "SpriteRenderer",
+          "Values": {
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0,
+                    "a": 0.19607843458652496
+                  }
+                }
+              }
+            },
+            "texture": 12,
+            "material": 100333
+          },
+          "Enabled": true
+        },
+        "890": {
+          "Type": "LoadingBar",
+          "Values": {
+            "fillBar": 891,
+            "fillAmount": 0.0
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "891": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 5.960464477539063e-08,
+              "y": -1.1920928955078125e-07,
+              "z": -0.009999999776482582
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "LoadingBarFill",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "892": {
+          "Type": "SpriteRenderer",
+          "Values": {
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 0.2743363380432129,
+                    "g": 1.0,
+                    "b": 0.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "texture": 12,
+            "material": 100333
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "893": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 2.5570716857910156,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 20.0,
+              "y": 4.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "LoadingBarBackground",
+        "active": false
+      },
+      "Children": [
+        896
+      ],
+      "Components": {
+        "894": {
+          "Type": "SpriteRenderer",
+          "Values": {
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0,
+                    "a": 0.19607843458652496
+                  }
+                }
+              }
+            },
+            "texture": 12,
+            "material": 100333
+          },
+          "Enabled": true
+        },
+        "895": {
+          "Type": "LoadingBar",
+          "Values": {
+            "fillBar": 896,
+            "fillAmount": 0.0
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "896": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 5.960464477539063e-08,
+              "y": -1.1920928955078125e-07,
+              "z": -0.009999999776482582
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "LoadingBarFill",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "897": {
+          "Type": "SpriteRenderer",
+          "Values": {
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 0.2743363380432129,
+                    "g": 1.0,
+                    "b": 0.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "texture": 12,
+            "material": 100333
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "898": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Ambiance",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "899": {
+          "Type": "AudioSource",
+          "Values": {
+            "volume": 0.30000001192092896,
+            "pan": 0.5,
+            "playOnAwake": true,
+            "loop": true,
+            "audioClip": 100379
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "904": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "StoveAudioSource",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "905": {
+          "Type": "AudioSource",
+          "Values": {
+            "volume": 1.0,
+            "pan": 0.5,
+            "playOnAwake": false,
+            "loop": true,
+            "audioClip": 100380
+          },
+          "Enabled": true
+        },
+        "906": {
+          "Type": "StoveAudioSource",
+          "Values": {
+            "audioSource": 905
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "908": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 1.472341775894165,
+              "z": -0.027932167053222656
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Particles",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "909": {
+          "Type": "ParticleSystem",
+          "Values": {
+            "mesh": 0,
+            "material": 100488,
+            "texture": 100436,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 0.5707964897155762,
+                    "g": 0.5707964897155762,
+                    "b": 0.5707964897155762,
+                    "a": 0.6832612752914429
+                  }
+                }
+              }
+            },
+            "isBillboard": true,
+            "emitterShape": 1,
+            "coneAngle": 130.0,
+            "boxSize": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "direction": {
+              "Values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              }
+            },
+            "speedMin": 0.20000000298023224,
+            "speedMax": 0.30000001192092896,
+            "lifeTimeMin": 2.0,
+            "lifeTimeMax": 3.0,
+            "spawnRate": 2.0,
+            "maxParticles": 10.0,
+            "randomRotation": true,
+            "isEmitting": true,
+            "simulationRate": 1,
+            "worldSimulation": true,
+            "loop": true,
+            "play": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "912": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 1.472341775894165,
+              "z": -0.027933120727539063
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Particles",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "913": {
+          "Type": "ParticleSystem",
+          "Values": {
+            "mesh": 0,
+            "material": 100488,
+            "texture": 100436,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 0.5707964897155762,
+                    "g": 0.5707964897155762,
+                    "b": 0.5707964897155762,
+                    "a": 0.6832612752914429
+                  }
+                }
+              }
+            },
+            "isBillboard": true,
+            "emitterShape": 1,
+            "coneAngle": 130.0,
+            "boxSize": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "direction": {
+              "Values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              }
+            },
+            "speedMin": 0.20000000298023224,
+            "speedMax": 0.30000001192092896,
+            "lifeTimeMin": 2.0,
+            "lifeTimeMax": 3.0,
+            "spawnRate": 2.0,
+            "maxParticles": 10.0,
+            "randomRotation": true,
+            "isEmitting": true,
+            "simulationRate": 1,
+            "worldSimulation": true,
+            "loop": true,
+            "play": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "914": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.19870012998580933,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "DoneParticleEffect",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "915": {
+          "Type": "ParticleSystem",
+          "Values": {
+            "mesh": 0,
+            "material": 100488,
+            "texture": 100453,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 0.14117646217346191,
+                    "g": 1.0,
+                    "b": 0.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "isBillboard": true,
+            "emitterShape": 0,
+            "coneAngle": 20.0,
+            "boxSize": {
+              "Values": {
+                "x": 1.0,
+                "y": 0.10000000149011612,
+                "z": 1.0
+              }
+            },
+            "direction": {
+              "Values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              }
+            },
+            "speedMin": 1.0,
+            "speedMax": 2.0,
+            "lifeTimeMin": 1.0,
+            "lifeTimeMax": 1.0,
+            "spawnRate": 1.0,
+            "maxParticles": 7.0,
+            "randomRotation": true,
+            "isEmitting": true,
+            "simulationRate": 1,
+            "worldSimulation": true,
+            "loop": false,
+            "play": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "918": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 1.4898439645767212,
+              "z": -0.08423805236816406
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0,
+              "w": -4.371138828673793e-08
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Particles",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "919": {
+          "Type": "ParticleSystem",
+          "Values": {
+            "mesh": 0,
+            "material": 100488,
+            "texture": 100398,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 0.5486725568771362,
+                    "g": 0.7603572607040405,
+                    "b": 1.0,
+                    "a": 0.5391366481781006
+                  }
+                }
+              }
+            },
+            "isBillboard": true,
+            "emitterShape": 1,
+            "coneAngle": 10.0,
+            "boxSize": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "direction": {
+              "Values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              }
+            },
+            "speedMin": 2.0,
+            "speedMax": 2.0,
+            "lifeTimeMin": 0.4000000059604645,
+            "lifeTimeMax": 0.4000000059604645,
+            "spawnRate": 8.0,
+            "maxParticles": 10.0,
+            "randomRotation": true,
+            "isEmitting": true,
+            "simulationRate": 1,
+            "worldSimulation": true,
+            "loop": true,
+            "play": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "921": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "BellAudioSource",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "923": {
+          "Type": "AudioSource",
+          "Values": {
+            "volume": 1.0,
+            "pan": 0.5,
+            "playOnAwake": false,
+            "loop": false,
+            "audioClip": 100490
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "922": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.0,
+              "z": -1.1920928955078125e-07
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "PopAudioSource",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "924": {
+          "Type": "AudioSource",
+          "Values": {
+            "volume": 1.0,
+            "pan": 0.5,
+            "playOnAwake": false,
+            "loop": false,
+            "audioClip": 100493
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "972": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Objects",
+        "active": true
+      },
+      "Children": [
+        673,
+        657,
+        645,
+        808,
+        793,
+        701,
+        599,
+        595,
+        577,
+        575,
+        571,
+        569,
+        563,
+        561,
+        537,
+        535,
+        533,
+        531,
+        529,
+        527
+      ]
+    }
+  },
+  "Lighting": {
+    "Values": {
+      "skybox": 0,
+      "skyColor": {
+        "Values": {
+          "rgba": {
+            "Values": {
+              "r": 0.09803921729326248,
+              "g": 0.09803921729326248,
+              "b": 0.09803921729326248,
+              "a": 1.0
+            }
+          }
+        }
+      },
+      "isFogEnabled": false,
+      "fogStart": 10.0,
+      "fogEnd": 50.0,
+      "fogColor": {
+        "Values": {
+          "rgba": {
+            "Values": {
+              "r": 0.5960784554481506,
+              "g": 0.5960784554481506,
+              "b": 0.5960784554481506,
+              "a": 1.0
+            }
+          }
+        }
+      }
+    }
+  }
+}

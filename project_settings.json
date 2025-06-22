@@ -1,0 +1,12 @@
+{
+"Values": {
+"projectName": "Cook_Xenity_Game",
+"gameName": "Cook_Xenity_Game",
+"companyName": "",
+"startScene": 100622,
+"engineVersion": "0.1.0",
+"compiledLibEngineVersion": "2",
+"isLibCompiledForDebug": true,
+"isLibCompiledFor64Bits": true
+}
+}

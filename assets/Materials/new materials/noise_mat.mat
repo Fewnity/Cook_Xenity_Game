@@ -1,0 +1,34 @@
+{
+"Values": {
+"alphaCutoff": 0.5,
+"color": {
+"Values": {
+"rgba": {
+"Values": {
+"a": 0.062745101749897,
+"b": 1.0,
+"g": 1.0,
+"r": 1.0
+}
+}
+}
+},
+"offset": {
+"Values": {
+"x": 0.0,
+"y": 0.0
+}
+},
+"renderingMode": 2,
+"shader": 11,
+"texture": 100620,
+"tiling": {
+"Values": {
+"x": 10.0,
+"y": 10.0
+}
+},
+"useLighting": false
+},
+"Version": 1
+}

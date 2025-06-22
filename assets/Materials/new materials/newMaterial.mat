@@ -1,0 +1,33 @@
+{
+"Values": {
+"color": {
+"Values": {
+"rgba": {
+"Values": {
+"a": 1.0,
+"b": 1.0,
+"g": 1.0,
+"r": 1.0
+}
+}
+}
+},
+"offset": {
+"Values": {
+"x": 0.0,
+"y": 0.0
+}
+},
+"shader": 11,
+"texture": 100378,
+"tiling": {
+"Values": {
+"x": 1.0,
+"y": 1.0
+}
+},
+"useLighting": false,
+"useTransparency": false
+},
+"Version": 1
+}
