@@ -129,12 +129,12 @@ void Stove::OnTriggerExit(CollisionEvent eventData)
 ReflectiveData Stove::GetReflectiveData()
 {
     BEGIN_REFLECTION();
-    ADD_VARIABLE(triggers, true);
-    ADD_VARIABLE(gameManager, true);
-    ADD_VARIABLE(ingredientPosition, true);
-    ADD_VARIABLE(loadingBar, true);
-    ADD_VARIABLE(cookTime, true);
-    ADD_VARIABLE(stoveAudioSource, true);
-    ADD_VARIABLE(particleSystem, true);
+    ADD_VARIABLE(triggers);
+    ADD_VARIABLE(gameManager);
+    ADD_VARIABLE(ingredientPosition);
+    ADD_VARIABLE(loadingBar);
+    ADD_VARIABLE(cookTime);
+    ADD_VARIABLE(stoveAudioSource);
+    ADD_VARIABLE(particleSystem);
     END_REFLECTION();
 }

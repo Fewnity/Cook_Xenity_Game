@@ -31,11 +31,11 @@ void ItemBuilder::Start()
 ReflectiveData ItemBuilder::GetReflectiveData()
 {
     BEGIN_REFLECTION();
-    ADD_VARIABLE(tomatoSlices, true);
-    ADD_VARIABLE(cheeseSlice, true);
-    ADD_VARIABLE(cookedSteak, true);
-    ADD_VARIABLE(overcookedSteak, true);
-    ADD_VARIABLE(dish, true);
+    ADD_VARIABLE(tomatoSlices);
+    ADD_VARIABLE(cheeseSlice);
+    ADD_VARIABLE(cookedSteak);
+    ADD_VARIABLE(overcookedSteak);
+    ADD_VARIABLE(dish);
     END_REFLECTION();
 }
 

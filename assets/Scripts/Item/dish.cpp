@@ -16,11 +16,11 @@ Dish::Dish()
 ReflectiveData Dish::GetReflectiveData()
 {
     BEGIN_REFLECTION();
-    ADD_VARIABLE(buns, true);
-    ADD_VARIABLE(cleanPlate, true);
-    ADD_VARIABLE(dirtyPlate, true);
-    ADD_VARIABLE(particleSystem, true);
-    ADD_VARIABLE(audioSource, true);
+    ADD_VARIABLE(buns);
+    ADD_VARIABLE(cleanPlate);
+    ADD_VARIABLE(dirtyPlate);
+    ADD_VARIABLE(particleSystem);
+    ADD_VARIABLE(audioSource);
     END_REFLECTION();
 }
 

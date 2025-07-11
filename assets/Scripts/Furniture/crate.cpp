@@ -29,11 +29,11 @@ void Crate::Start()
 ReflectiveData Crate::GetReflectiveData()
 {
     BEGIN_REFLECTION();
-    ADD_VARIABLE(triggers, true);
-    ADD_VARIABLE(gameManager, true);
-    ADD_VARIABLE(ingredientToSpawn, true);
-    ADD_VARIABLE(ingredientType, true);
-    ADD_VARIABLE(audioSource, true);
+    ADD_VARIABLE(triggers);
+    ADD_VARIABLE(gameManager);
+    ADD_VARIABLE(ingredientToSpawn);
+    ADD_VARIABLE(ingredientType);
+    ADD_VARIABLE(audioSource);
     END_REFLECTION();
 }
 

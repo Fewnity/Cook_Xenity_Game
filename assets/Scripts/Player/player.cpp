@@ -126,12 +126,12 @@ void Player::RemoveHeldItem()
 ReflectiveData Player::GetReflectiveData()
 {
     BEGIN_REFLECTION();
-    ADD_VARIABLE(moveSpeed, true);
-    ADD_VARIABLE(rigidbody, true);
-    ADD_VARIABLE(handsLocation, true);
-    ADD_VARIABLE(heldItem, true);
-    ADD_VARIABLE(playerMeshHolding, true);
-    ADD_VARIABLE(playerMeshIdle, true);
+    ADD_VARIABLE(moveSpeed);
+    ADD_VARIABLE(rigidbody);
+    ADD_VARIABLE(handsLocation);
+    ADD_VARIABLE(heldItem);
+    ADD_VARIABLE(playerMeshHolding);
+    ADD_VARIABLE(playerMeshIdle);
     END_REFLECTION();
 }
 

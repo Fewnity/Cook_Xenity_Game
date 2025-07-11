@@ -35,6 +35,6 @@ void AutoDestroy::Update()
 ReflectiveData AutoDestroy::GetReflectiveData()
 {
     BEGIN_REFLECTION();
-    ADD_VARIABLE(audioSource, true); // true = isVisibleInInspector
+    ADD_VARIABLE(audioSource);
     END_REFLECTION();
 }

@@ -37,8 +37,8 @@ void Bin::Update()
 ReflectiveData Bin::GetReflectiveData()
 {
     BEGIN_REFLECTION();
-    ADD_VARIABLE(triggers, true);
-    ADD_VARIABLE(gameManager, true);
+    ADD_VARIABLE(triggers);
+    ADD_VARIABLE(gameManager);
     END_REFLECTION();
 }
 

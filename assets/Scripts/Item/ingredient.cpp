@@ -14,8 +14,8 @@ Ingredient::Ingredient()
 ReflectiveData Ingredient::GetReflectiveData()
 {
     BEGIN_REFLECTION();
-    ADD_VARIABLE(height, true);
-    ADD_VARIABLE(ingredientType, true);
-    ADD_VARIABLE(cuttable, true);
+    ADD_VARIABLE(height);
+    ADD_VARIABLE(ingredientType);
+    ADD_VARIABLE(cuttable);
     END_REFLECTION();
 }

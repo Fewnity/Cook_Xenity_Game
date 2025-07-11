@@ -165,10 +165,10 @@ void Counter::OnTriggerExit(CollisionEvent eventData)
 ReflectiveData Counter::GetReflectiveData()
 {
     BEGIN_REFLECTION();
-    ADD_VARIABLE(triggers, true);
-    ADD_VARIABLE(gameManager, true);
-    ADD_VARIABLE(middlePosition, true);
-    ADD_VARIABLE(loadingBar, true);
-    ADD_VARIABLE(cutTime, true);
+    ADD_VARIABLE(triggers);
+    ADD_VARIABLE(gameManager);
+    ADD_VARIABLE(middlePosition);
+    ADD_VARIABLE(loadingBar);
+    ADD_VARIABLE(cutTime);
     END_REFLECTION();
 }

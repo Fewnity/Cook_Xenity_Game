@@ -22,8 +22,8 @@ void LoadingBar::Start()
 ReflectiveData LoadingBar::GetReflectiveData()
 {
     BEGIN_REFLECTION();
-    ADD_VARIABLE(fillBar, true);
-    ADD_VARIABLE(fillAmount, true);
+    ADD_VARIABLE(fillBar);
+    ADD_VARIABLE(fillAmount);
     END_REFLECTION();
 }
 

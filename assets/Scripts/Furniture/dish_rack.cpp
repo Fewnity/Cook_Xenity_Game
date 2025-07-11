@@ -32,10 +32,10 @@ void DishRack::Start()
 ReflectiveData DishRack::GetReflectiveData()
 {
     BEGIN_REFLECTION();
-    ADD_VARIABLE(triggers, true);
-    ADD_VARIABLE(gameManager, true);
-    ADD_VARIABLE(dishPlate, true);
-    ADD_VARIABLE(dishPlates, true);
+    ADD_VARIABLE(triggers);
+    ADD_VARIABLE(gameManager);
+    ADD_VARIABLE(dishPlate);
+    ADD_VARIABLE(dishPlates);
     END_REFLECTION();
 }
 

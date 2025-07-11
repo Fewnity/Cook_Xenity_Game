@@ -14,7 +14,7 @@ StoveAudioSource::StoveAudioSource()
 ReflectiveData StoveAudioSource::GetReflectiveData()
 {
     BEGIN_REFLECTION();
-    ADD_VARIABLE(audioSource, true);
+    ADD_VARIABLE(audioSource);
     END_REFLECTION();
 }
 

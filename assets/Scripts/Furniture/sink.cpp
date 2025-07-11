@@ -68,13 +68,13 @@ void Sink::Update()
 ReflectiveData Sink::GetReflectiveData()
 {
     BEGIN_REFLECTION();
-    ADD_VARIABLE(triggers, true);
-    ADD_VARIABLE(gameManager, true);
-    ADD_VARIABLE(dishPosition, true);
-    ADD_VARIABLE(loadingBar, true);
-    ADD_VARIABLE(washTime, true);
-    ADD_VARIABLE(audioSource, true);
-    ADD_VARIABLE(particleSystem, true);
+    ADD_VARIABLE(triggers);
+    ADD_VARIABLE(gameManager);
+    ADD_VARIABLE(dishPosition);
+    ADD_VARIABLE(loadingBar);
+    ADD_VARIABLE(washTime);
+    ADD_VARIABLE(audioSource);
+    ADD_VARIABLE(particleSystem);
     END_REFLECTION();
 }
 

@@ -90,11 +90,11 @@ void ServiceCounter::Update()
 ReflectiveData ServiceCounter::GetReflectiveData()
 {
     BEGIN_REFLECTION();
-    ADD_VARIABLE(triggers, true);
-    ADD_VARIABLE(gameManager, true);
-    ADD_VARIABLE(dishPositions, true);
-    ADD_VARIABLE(bellAudioSource, true);
-    ADD_VARIABLE(popAudioSource, true);
+    ADD_VARIABLE(triggers);
+    ADD_VARIABLE(gameManager);
+    ADD_VARIABLE(dishPositions);
+    ADD_VARIABLE(bellAudioSource);
+    ADD_VARIABLE(popAudioSource);
     END_REFLECTION();
 }
 

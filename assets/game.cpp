@@ -24,19 +24,19 @@
 */
 void Game::Start()
 {
-	REGISTER_COMPONENT(GameManager, true); // true = disable update function
-	REGISTER_COMPONENT(Player, false); // false = enable update function
-	REGISTER_COMPONENT(Counter, false);
-	REGISTER_COMPONENT(Stove, false);
-	REGISTER_COMPONENT(Crate, true);
-	REGISTER_COMPONENT(Sink, false);
-	REGISTER_COMPONENT(DishRack, true);
-	REGISTER_COMPONENT(Dish, true);
-	REGISTER_COMPONENT(ItemBuilder, true);
-	REGISTER_COMPONENT(Ingredient, true);
-	REGISTER_COMPONENT(Bin, true);
-	REGISTER_COMPONENT(ServiceCounter, false);
-	REGISTER_COMPONENT(LoadingBar, true);
-	REGISTER_COMPONENT(StoveAudioSource, true);
-	REGISTER_COMPONENT(AutoDestroy, false);
+	REGISTER_COMPONENT(GameManager).DisableUpdateFunction();
+	REGISTER_COMPONENT(Player);
+	REGISTER_COMPONENT(Counter);
+	REGISTER_COMPONENT(Stove);
+	REGISTER_COMPONENT(Crate).DisableUpdateFunction();
+	REGISTER_COMPONENT(Sink);
+	REGISTER_COMPONENT(DishRack).DisableUpdateFunction();
+	REGISTER_COMPONENT(Dish).DisableUpdateFunction();
+	REGISTER_COMPONENT(ItemBuilder).DisableUpdateFunction();
+	REGISTER_COMPONENT(Ingredient).DisableUpdateFunction();
+	REGISTER_COMPONENT(Bin).DisableUpdateFunction();
+	REGISTER_COMPONENT(ServiceCounter);
+	REGISTER_COMPONENT(LoadingBar).DisableUpdateFunction();
+	REGISTER_COMPONENT(StoveAudioSource).DisableUpdateFunction();
+	REGISTER_COMPONENT(AutoDestroy);
 }

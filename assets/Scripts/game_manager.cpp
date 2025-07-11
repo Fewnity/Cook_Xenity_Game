@@ -17,7 +17,7 @@ GameManager::GameManager()
 ReflectiveData GameManager::GetReflectiveData()
 {
     BEGIN_REFLECTION();
-    ADD_VARIABLE(players, true);
-    ADD_VARIABLE(itemBuilder, true);
+    ADD_VARIABLE(players);
+    ADD_VARIABLE(itemBuilder);
     END_REFLECTION();
 }
