@@ -17,8 +17,6 @@ Player::Player()
  */
 void Player::Start()
 {
-    Screen::SetVSync(false);
-    Screen::SetFullScreen(true);
 }
 
 /**
