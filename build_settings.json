@@ -1,39 +1,40 @@
 {
-"Linux": {
+"Windows": {
 "Values": {
-"icon": 0
-}
-},
-"PS3": {
-"Values": {
-"isDebugMode": false,
-"useCompilationCache": true
+"icon": 100617
 }
 },
 "PSP": {
 "Values": {
-"backgroundImage": 100611,
+"isDebugMode": false,
 "enableProfiler": false,
 "iconImage": 100612,
-"isDebugMode": false,
+"backgroundImage": 100611,
 "previewImage": 100613,
 "useCompilationCache": true
 }
 },
 "PsVita": {
 "Values": {
-"backgroundImage": 100614,
-"enableProfiler": false,
-"gameId": "XENI00001",
-"iconImage": 100615,
 "isDebugMode": false,
+"enableProfiler": false,
+"iconImage": 100615,
+"backgroundImage": 100614,
 "startupImage": 100616,
+"gameId": "XENI00001",
 "useCompilationCache": true
 }
 },
-"Windows": {
+"PS3": {
 "Values": {
-"icon": 100617
+"isDebugMode": false,
+"enableProfiler": false,
+"useCompilationCache": true
+}
+},
+"Linux": {
+"Values": {
+"icon": 0
 }
 }
 }
