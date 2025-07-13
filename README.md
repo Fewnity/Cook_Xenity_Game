@@ -6,6 +6,8 @@ Link to the game engine: [https://github.com/Fewnity/Xenity-Engine](https://gith
 
 ![cooking_game](https://github.com/user-attachments/assets/2753644d-3db6-4283-b964-a78843cde624)
 
+![gif](https://github.com/user-attachments/assets/bfe98773-b5df-4425-a2e7-467b6ee48e68)
+
 ## Goal of this minigame
 
 Prepare burgers by cutting tomato and cheese, cooking a steak and by placing bread and prepared ingredients on a plate.<br>
